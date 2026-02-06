@@ -29,7 +29,7 @@ void quit(void)
 int main(void)
 {
     char *names[] = {"Vietas formula", "Simp radicals", "Quit"};
-    func_p functions[] = {the_game, simp_radicals, quit};
+    func_p functions[] = {vieta_formula, simp_radicals, quit};
 
     while (1)
     {

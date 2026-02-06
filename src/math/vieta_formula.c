@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-#include "the_game.h"
+#include "vieta_formula.h"
 #include "input.h"
 #include "fixed_point.h"
 
@@ -16,7 +16,9 @@ void vieta_formula(void)
     clrscr();
 
     s = get_number("Add number: ");
+    printf("\n");
     p = get_number("Mult number: ");
+    printf("\n");
 
     /* Solve x^2 - Sx + P = 0, discriminant = S^2 - 4P */
     disc = (long)s * s - 4L * p;
@@ -35,6 +37,7 @@ void vieta_formula(void)
     {
         printf("No match found\n");
     }
+
     else if ((s + (int)sqrt_disc) % 2 != 0)
     {
         /* Roots aren't integers if (S +/- sqrt) is odd */

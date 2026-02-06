@@ -36,7 +36,7 @@ void simp_radicals(void)
     if (radicand == 1) {
         printf(")=%d\n", coef);
     } else if (coef == 1) {
-        printf("=sqrt(%d)\n", radicand);
+        printf(")=sqrt(%d)\n", radicand);
     } else {
         printf(")=%d*sqrt(%d)\n", coef, radicand);
     }
