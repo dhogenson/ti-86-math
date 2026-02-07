@@ -44,7 +44,7 @@ docker run --rm -v "$(pwd)/bin:/app/bin" ti86-math
 2. Ensure Python 3 is installed (used for post-processing the binary)
 3. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ti-86-math.git
+   git clone https://github.com/dhogenson/ti-86-math.git
    cd ti-86-math
    ```
 4. Build the project:
