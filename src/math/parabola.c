@@ -1,4 +1,4 @@
-#include <input.h>
+#include <stdio.h>
 #include "../input.h"
 
 void parabola(void)

@@ -34,7 +34,7 @@ int main(void)
 
     while (1)
     {
-        int selected = menu(functions, names, 3);
+        int selected = menu(functions, names, 4);
         // Break out if user selects quit
         if (selected == 2)
         {
