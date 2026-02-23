@@ -3,6 +3,7 @@
 #include "input.h"
 #include "math/vieta_formula.h"
 #include "math/simp_radicals.h"
+#include "math/parabola.h"
 #include "menu.h"
 
 // Test function for raw inputs
@@ -28,8 +29,8 @@ void quit(void)
 // Main loop function
 int main(void)
 {
-    char *names[] = {"Vietas formula", "Simp radicals", "Quit"};
-    func_p functions[] = {vieta_formula, simp_radicals, quit};
+    char *names[] = {"Vietas formula", "Simp radicals", "Parabola", "Quit"};
+    func_p functions[] = {vieta_formula, simp_radicals, parabola, quit};
 
     while (1)
     {
